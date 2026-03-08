@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav, .nav-links{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.title{
+    font-style: oblique;
+    font-size: 2rem;
+    color: fuchsia;
+}
+
+.nav-links{
+    list-style: none;
+    gap: 1rem;
+}
+
+.link a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: grey;
+    padding: .3rem;
+}
+
+.link a:hover{
+    background-color: black;
+    color: white;
+}
+
+main{
+    padding-top: 2rem;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.question{
+    font-size: 1.3rem;
+}
+
+.hint{
+    font-style: italic;
+    color: gray;
+    font-size: 1.1rem;
+    margin: 1rem 0;
+}
+
+.form-area{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    gap: .5rem;
+}
+
+.form-area p{
+    font-size: 1.3rem;
+    font-style: italic;
+}
+
+.form-group input, .btn{
+    padding: 10px 12px;
+}
+
+.form-group input:focus{
+    outline: none;
+    border: 1px solid fuchsia;
+}
+
+.answer{
+    color: green;
+    font-size: 1.2rem;
+}
+
+.response{
+    color: firebrick;
+    font-size: 1.2rem;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
